@@ -1,0 +1,35 @@
+{
+  "name": "linux-health-dashboard",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Real-time Linux system health and monitoring dashboard with WebSockets and dynamic visualization",
+  "main": "start-dev.js",
+  "scripts": {
+    "dev": "node start-dev.js",
+    "start": "node start-dev.js",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build"
+  },
+  "keywords": [
+    "linux",
+    "system-monitoring",
+    "dashboard",
+    "react",
+    "vite",
+    "socket-io",
+    "systeminformation",
+    "real-time",
+    "devops"
+  ],
+  "author": "Raja Shereep <rshereep23@gmail.com> (https://github.com/Raja-shereep)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Raja-shereep/linux-health-dashboard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Raja-shereep/linux-health-dashboard/issues"
+  },
+  "homepage": "https://github.com/Raja-shereep/linux-health-dashboard#readme"
+}
